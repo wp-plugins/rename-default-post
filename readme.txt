@@ -1,4 +1,4 @@
-=== Brand In Content===
+=== Rename default post===
 Contributors: AboZain
 Donate link: http://unitone.ps
 Tags: rename, change, default, post
