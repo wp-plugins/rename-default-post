@@ -8,10 +8,10 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A simple, lightweight WordPress plugin Rename your Default Post name to custom name in admin menu
+A simple, lightweight WordPress plugin Rename your Default Post labels to custom name in admin menu
 
 == Description ==
-Rename Default Post is a simple plugin gives you the ability to Rename your Default Post name to custom name in admin menu. =
+Rename Default Post is a simple plugin gives you the ability to Rename your Default Post label to custom name in admin menu. =
 
 How the plugin works: =
 Go to Settings -> Rename default post.
@@ -32,7 +32,7 @@ Go to Settings -> Rename default post.
 
 == Screenshots ==
 
-1. This screen shot description the fields you can change the default post labels from
+1. This screen shot description the fields you can change the default post labels.
 
 == Changelog ==
 
