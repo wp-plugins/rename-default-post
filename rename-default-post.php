@@ -9,7 +9,7 @@ Plugin URI: http://wordpress.org/plugins/rename-default-post
 Description: Rename your Default Post name to custom name in admin menu.
 Author: Mohammed J. AlBanna
 Version: 1.0
-Author URI: Eng.Banna1@Gmail.com
+Author URI: http://unitone.ps
 */
 
 add_action( 'admin_menu', 'rdp_reg_menu' );

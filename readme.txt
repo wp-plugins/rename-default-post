@@ -1,7 +1,7 @@
 === Rename default post===
 Contributors: AboZain
 Donate link: http://unitone.ps
-Tags: rename, change, default, post
+Tags: rename, change, default, post, news, article
 Requires at least: 3.0.1
 Tested up to: 4.3
 Stable tag: 4.3
@@ -13,11 +13,14 @@ A simple, lightweight WordPress plugin Rename your Default Post name to custom n
 == Description ==
 Rename Default Post is a simple plugin gives you the ability to Rename your Default Post name to custom name in admin menu.
 
+How the plugin work:
+Go to Settings -> Rename default post.
+
 == Installation ==
 
 This section describes how to install the plugin and get it working.
 1. Upload `rename-default-post` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
+2. Activate the plugin through the 'Plugins' menu in WordPress
 
 == Frequently Asked Questions ==
 
