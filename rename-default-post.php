@@ -133,17 +133,19 @@ function rdp_change_post_menu_label() {
     global $submenu;
 	
 	$data =  get_option('RenameDefaultPost'); 
-	if($data){
-		$menu[5][0] = $data['name'];
-		$submenu['edit.php'][5][0] = $data['name'];
-		$submenu['edit.php'][10][0] = $data['add_new'];
-		$submenu['edit.php'][16][0] = 'Tags';
-		echo '';
+	if(current_user_can( 'edit_posts' )){	
+		if($data){
+			$menu[5][0] = $data['name'];
+			$submenu['edit.php'][5][0] = $data['name'];
+			$submenu['edit.php'][10][0] = $data['add_new'];
+			$submenu['edit.php'][16][0] = 'Tags';
+			echo '';
+		}
 	}
 }
-if(current_user_can( 'edit_posts' )){	
+
 add_action( 'admin_menu', 'rdp_change_post_menu_label' );
-}
+
 // Function to change post object labels to "news"
 function rdp_change_post_object_label() {
     global $wp_post_types;
